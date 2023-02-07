@@ -62,3 +62,5 @@ For a better understanding of what you can do see here: http://ravenfieldgame.co
 ##### The End
 That's pretty much it actually. Your add on just needs to properly define the data necessary for a drop and then call the proper function. Anyhing else is up to what your add on requires. Some other things to note, you'll want your drop prefab to use the "NoActorCollission" layer to prevent actors kicking your prefab around. This will also prevent projectiles from sending you drops flying. If the layer isn't present go to Ravenfield Tools -> Setup Layer Names.
 
+If your add-on successfully...added on you'll be able to see a message on the console saying so.
+
